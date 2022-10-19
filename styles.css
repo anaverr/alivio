@@ -1,0 +1,40 @@
+body{
+  width: 100%;
+  margin: 0;
+}
+
+.button{
+  border: 0;
+}
+
+.section-1{
+  height: 895px;
+  background-image: url(img/bg.png);
+  background-position: center;
+}
+
+.title-1{
+  width: 440px;
+  /*объединить font*/
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 65px;
+  color: #01996D;
+  margin: 175px 1205px 30px 275px;
+}
+
+.text-1{
+  width: 420px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin-left: 275px;
+}
+
+.button--FindYourWay{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 20px 50px;
+  margin-top: 18px;
+  margin-left: 275px;
+  color: #ffffff;
+  background-color: #01996D;
+}
