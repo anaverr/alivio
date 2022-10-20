@@ -7,13 +7,16 @@ body{
   display: flex;
 }
 
+.menu{
+  text-decoration: none;
+}
+
 .button{
   border: 0;
 }
 
 .button--sign-in{
-  background-color: #ffffff; /*возможно стоит просто заменить кнопку на ссылку,
-  я знаю, что так делают для простоты, но решила тут попытаться поработать с кнопкой*/
+  background-color: #ffffff;
 }
 
 .section-1{
@@ -32,13 +35,13 @@ body{
 
 .text-1{
   width: 420px;
-  font-family: ;
+  font-family: Lato, Arial, Helvetica, sans-serif; /*шрифт Lato не работает?*/
   font-size: 20px;
   padding-left: 275px;
 }
 
 .button--FindYourWay{
-  font-family: ;
+  font-family: Lato, Arial, Helvetica, sans-serif;
   font-size: 20px;
   padding: 20px 50px;
   margin-top: 18px;
