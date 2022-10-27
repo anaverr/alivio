@@ -20,12 +20,12 @@
   padding: 50px; /*?*/
 }
 
-.button{
+.buttons{
   display: flex;
   flex-wrap: nowrap;
 }
 /*это фишка кнопки, что я не могу ее стилизовать через див, в который они вложены?*/
-.button__sign-in, .button__trial{
+.buttons__button-sign-in, .buttons__button-trial{
   border: 0;
   border-radius: 7px;
   font-family: 'Lato', sans-serif;
@@ -34,11 +34,11 @@
   padding: 20px 50px;
 }
 
-.button__sign-in{
+.buttons__button-sign-in{
   background-color: #ffffff;
 }
 
-.button__trial{
+.buttons__button-trial{
   background-color: #01996D;  
   color: #ffffff;
 }
