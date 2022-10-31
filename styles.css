@@ -1,83 +1,81 @@
-*{
+* {
   margin: 0;
   padding: 0;
-}
-/*убрала тег body с width 100%*/
-
-.header{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: nowrap;
-  align-items: baseline;
   font-family: 'Lato', sans-serif;
   font-size: 20px;
-  margin: 17px 0;
 }
 
-.menu__item{
-  text-decoration: none;
-  color: #000000;
-  padding: 50px; /*?*/
-}
-
-.buttons{
-  display: flex;
-  flex-wrap: nowrap;
-}
-/*это фишка кнопки, что я не могу ее стилизовать через див, в который они вложены?*/
-.buttons__button-sign-in, .buttons__button-trial{
-  border: 0;
-  border-radius: 7px;
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  cursor: pointer;
-  padding: 20px 50px;
-}
-
-.buttons__button-sign-in{
-  background-color: #ffffff;
-}
-
-.buttons__button-trial{
-  background-color: #01996D;  
-  color: #ffffff;
-}
-
-.section-1{
-  height: 980px;
-  background-image: url(img/bg.png);
-  background-size: cover;
-}
-
-.section-1__content{
+.header {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.section-1__title{
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  margin: 16px 0;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.menu__item {
+  text-decoration: none;
+  color: #000000;
+  padding: 34px;
+}
+
+.header-buttons {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.button {
+  border: 0;
+  border-radius: 7px;
+  color: #ffffff;
+  background-color: #01996D;
+  padding: 20px 50px;
+  cursor: pointer;
+}
+
+.buttons__button-sign-in {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 0px 30px;
+}
+
+.buttons__button-trial {
+  padding: 15px 50px;
+}
+
+.section-1 {
+  height: 895px;
+  background-image: url(img/bg.png);
+  background-size: cover;
+}
+
+.section-1__content {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-1__title {
   width: 440px;
-  font-family: Georgia, 'Times New Roman', Times, serif; /*если шрифт добавляется и так, его же импортировать не нужно?*/
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 65px;
   color: #01996D;
-  padding-top: 175px;
+  padding-top: 174px;
   padding-bottom: 30px;
 }
 
-.section-1__text{
+.section-1__text {
   width: 420px;
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  padding-bottom: 24px;
-}
-
-.section-1__button{
-  border: 0;
-  border-radius: 7px;
-  cursor: pointer;
-  background-color: #01996D;
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  color: #ffffff;
-  padding: 20px 50px;
+  padding-bottom: 52px;
+  line-height: 30px;
 }

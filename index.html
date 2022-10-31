@@ -4,23 +4,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--тут целых три ссылки. их нужно все обязательно?-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <title>Alivio</title>
   </head>
   <body>
     <header class="header">
-      <img class="logo" src="img/logo.svg" alt="Logo" width="79.57" height="23.04">
-      <nav class="menu">
-        <a class="menu__item" href="">Why Alivio</a>
-        <a class="menu__item" href="">Solutions</a>
-        <a class="menu__item" href="">Community</a>
-        <a class="menu__item" href="">Pricing</a>
-      </nav>
-      <div class="buttons">
-        <button class="buttons__button-sign-in">Sign&#8209;in</button>
-        <button class="buttons__button-trial">Start&nbsp;Trial</button>
+      <div class="header-wrapper">
+        <img class="logo" src="img/logo.svg" alt="Logo" width="79.57" height="23.04">
+        <nav class="menu">
+          <a class="menu__item" href="">Why Alivio</a>
+          <a class="menu__item" href="">Solutions</a>
+          <a class="menu__item" href="">Community</a>
+          <a class="menu__item" href="">Pricing</a>
+        </nav>
+        <div class="header-buttons"> <!--сменила, чтобы не путать с классом button у каждой кнопки-->
+          <button class="button buttons__button-sign-in">Sign&#8209;in</button>
+          <button class="button buttons__button-trial">Start&nbsp;Trial</button>
+        </div>
       </div>
     </header>
     <main class="main">
@@ -28,7 +30,7 @@
         <div class="section-1__content">
           <h2 class="section-1__title">Be aware, Manage well.</h2>
           <p class="section-1__text">Everyone experiences stress in different ways. Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
-          <button class="section-1__button">Find Your Way</button>
+          <button class="button section-1__button">Find Your Way</button>
         </div>
       </section>
     </main>
