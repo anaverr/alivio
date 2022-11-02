@@ -43,7 +43,7 @@
   background-color: #01996D;
   padding: 20px 50px;
   cursor: pointer;
-  font-weight: regular;
+  font-weight: normal;
 }
 
 .buttons__button-sign-in {
@@ -85,7 +85,7 @@
   width: 420px;
   padding-bottom: 52px;
   line-height: 30px;
-  font-weight: regular;
+  font-weight: normal;
 }
 
 .section-2__content {
@@ -94,7 +94,6 @@
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 104px;
-  border: 1px solid;
 }
 
 .section-2__text-1 {
@@ -125,7 +124,6 @@
   display: flex;
   justify-content: space-between;
   height: 1058px;
-  padding-bottom: 0px; /*change later*/
 }
 
 .section-2__column {
@@ -142,7 +140,7 @@
 
 .section-2__number {
   font-size: 150px;
-  font-weight: regular;
+  font-weight: normal;
   opacity: .2;
   position: absolute;
 }
@@ -165,7 +163,7 @@
 }
 
 .section-2__number-01 {
-  left: 260px;
+  left: 264px;
 }
 
 .section-2__column-title-1 {
@@ -179,11 +177,11 @@
 }
 
 .section-2__photo-1 {
-  top: 260px;
+  top: 232px;
 }
 
 .section-2__number-02 {
-  left: 742px;
+  left: 748px;
   top: 1708px;
 }
 
@@ -204,7 +202,7 @@
 }
 
 .section-2__number-03 {
-  right: 460px;
+  right: 482px;
   top: 1474px;
 }
 
