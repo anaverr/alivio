@@ -164,15 +164,15 @@
   padding-top: 286px;
 }
 
-.step:nth-child(2) > .step__title {
+.step:nth-child(2) .step__title {
   padding-left: 80px;
 }
 
-.step:nth-child(2) > .step__text {
+.step:nth-child(2) .step__text {
   width: 392px;
 }
 
-.step:nth-child(2) > .step__img {
+.step:nth-child(2) .step__img {
   padding-top: 38px;
 }
 
@@ -180,21 +180,21 @@
   padding-top: 54px;
 }
 
-.step:nth-child(3) > .step__number {
+.step:nth-child(3) .step__number {
   padding-left: 12px;
 }
 
-.step:nth-child(3) > .step__title {
+.step:nth-child(3) .step__title {
   padding-left: 134px;
 }
 
-.step:nth-child(3) > .step__text {
+.step:nth-child(3) .step__text {
   width: 438px;
   padding-top: 50px;
   padding-left: 2px;
 }
 
-.step:nth-child(3) > .step__img {
+.step:nth-child(3) .step__img {
   padding-top: 48px;
   padding-left: 8px;
 }
