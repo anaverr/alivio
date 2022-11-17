@@ -243,7 +243,7 @@
 .story-section__play {
   position: absolute;
   margin: auto;
-  left: 2px; /* в макете расположение не ровно в центре, поэтому я добавила отступы left и bottom */
+  left: 2px;
   right: 0;
   top: 0;
   bottom: 4px;
@@ -316,7 +316,7 @@
 .footer__menu-item {
   text-decoration: none;
   color: #ffffff;
-  display: block; /*сначала написала flex, но потом поняла, что в нем нет смысла, и установила block. хотя может быть вообще нет разницы??*/
+  display: block;
   font-size: 25px;
   font-weight: 600;
   padding-bottom: 60px;
